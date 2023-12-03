@@ -9,5 +9,8 @@
 </head>
 <body>
 <h1>home</h1>
+<form method="post" action="/">
+    <a href="/create">Create Car</a>
+</form>
 </body>
 </html>

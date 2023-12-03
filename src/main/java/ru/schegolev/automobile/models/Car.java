@@ -1,4 +1,4 @@
-package ru.schegolev.automobile.controllers.models;
+package ru.schegolev.automobile.models;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -26,7 +26,7 @@ public class Car {
     private double engineCapacity;
     private int age;
     private  String color;
-    @Enumerated(value = EnumType.STRING)
-    private Type type;
+    //@Enumerated(value = EnumType.STRING)
+    private String type;
 
 }
